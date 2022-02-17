@@ -554,7 +554,7 @@ progress {
 }
 .dignity__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .dignity__text {
   display: flex;
@@ -579,4 +579,32 @@ progress {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.production {
+  background-color: #163A24;
+  padding: 66px 0 120px 0;
+}
+.production__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.production__items {
+  margin-top: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.production__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.production__descr {
+  margin-top: 28px;
+  text-align: center;
 }
