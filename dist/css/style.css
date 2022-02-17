@@ -608,3 +608,18 @@ progress {
   margin-top: 28px;
   text-align: center;
 }
+
+.employees {
+  background-color: #F2EFE6;
+  padding: 114px 0 135px 0;
+}
+.employees__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.employees__text {
+  margin-top: 27px;
+}
