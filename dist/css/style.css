@@ -445,13 +445,19 @@ progress {
 /*# sourceMappingURL=bootstrap-reboot.min.css.map */
 @font-face {
   font-family: "Recoleta";
-  src: local("Recoleta"), url("../fonts/Recoleta-Regular.ttf") format("otf");
+  src: local("Recoleta"), url("../fonts/Recoleta-Regular.ttf") format("ttf");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
+  font-family: "Recoleta";
+  src: local("Recoleta"), url("../fonts/Recoleta-SemiBold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
   font-family: "Noto Sans";
-  src: local("Noto Sans"), url("../fonts/NotoSans-Regular.ttf") format("otf");
+  src: local("Noto Sans"), url("../fonts/NotoSans-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: normal;
 }
@@ -470,6 +476,8 @@ progress {
   font-size: 48px;
   line-height: 65px;
   color: #FBFAF7;
+  font-weight: 700;
+  font-style: normal;
 }
 .title_green {
   color: #163A24;
@@ -539,4 +547,36 @@ progress {
 .promo__descr {
   width: 475px;
   margin-top: 18px;
+}
+
+.dignity {
+  padding: 120px 0;
+}
+.dignity__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.dignity__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 393px;
+}
+.dignity__descr {
+  margin-top: 27px;
+}
+.dignity__partners {
+  margin-top: 113px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dignity__partners-items {
+  margin-top: 66px;
+  width: 983px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
