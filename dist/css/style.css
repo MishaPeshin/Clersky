@@ -470,6 +470,10 @@ progress {
 .text_green {
   color: #163A24;
 }
+.text_fz16 {
+  font-size: 16px;
+  line-height: 22px;
+}
 
 .title {
   font-family: Recoleta;
@@ -481,6 +485,10 @@ progress {
 }
 .title_green {
   color: #163A24;
+}
+.title_fz28 {
+  font-size: 28px;
+  line-height: 31px;
 }
 
 .container {
@@ -622,4 +630,52 @@ progress {
 }
 .employees__text {
   margin-top: 27px;
+}
+
+.offers {
+  padding: 180px 0 120px 0;
+}
+.offers__wrapper {
+  text-align: center;
+}
+.offers__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.offers__descr {
+  margin-top: 27px;
+}
+.offers__title {
+  margin-top: 114px;
+}
+.offers__cards {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.offers__card {
+  text-align: left;
+  width: 353px;
+  padding: 66px 0 50px 40px;
+  background-color: #F2EFE6;
+  box-shadow: 5px 5px 20px #E9E4D5;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.offers__card-text {
+  margin-top: 20px;
+}
+.offers__card-list {
+  margin-top: 23px;
+}
+.offers__card li {
+  margin-top: 15px;
+}
+.offers__card li:first-child {
+  margin-top: 0;
 }
