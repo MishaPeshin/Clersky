@@ -494,6 +494,10 @@ progress {
   font-size: 28px;
   line-height: 31px;
 }
+.title_fz24 {
+  font-size: 24px;
+  line-height: 31px;
+}
 
 .button {
   height: 52px;
@@ -812,5 +816,50 @@ progress {
   color: #198C36;
 }
 .singup__link:hover {
+  color: #198C36;
+}
+
+.footer {
+  padding: 44px 0 25px 0;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__firstbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__social {
+  margin-right: 14px;
+}
+.footer__social:last-child {
+  margin-right: 0;
+}
+.footer__divider {
+  margin-top: 19px;
+  height: 1px;
+  background: #F2EFE6;
+  width: 100%;
+}
+.footer__secondbox {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__item {
+  margin-right: 14px;
+  color: #198C36;
+}
+.footer__item:last-child {
+  margin-right: 0;
+}
+.footer__item:hover {
   color: #198C36;
 }
