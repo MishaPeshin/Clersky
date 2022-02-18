@@ -474,6 +474,10 @@ progress {
   font-size: 16px;
   line-height: 22px;
 }
+.text_fz14 {
+  font-size: 14px;
+  line-height: 22px;
+}
 
 .title {
   font-family: Recoleta;
@@ -489,6 +493,30 @@ progress {
 .title_fz28 {
   font-size: 28px;
   line-height: 31px;
+}
+
+.button {
+  height: 52px;
+  display: flex;
+  padding: 0 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: #198C36;
+  border-radius: 160px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #FBFAF7;
+  text-decoration: none;
+}
+.button:hover {
+  color: #FBFAF7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button_pink {
+  background-color: #FAB5A0;
 }
 
 .container {
@@ -512,7 +540,6 @@ progress {
   align-items: center;
 }
 .navigation__link {
-  display: inline-block;
   color: #FBFAF7;
   text-decoration: none;
   margin-right: 24px;
@@ -524,19 +551,6 @@ progress {
 }
 .navigation__link:last-child {
   margin-right: 0;
-}
-.navigation__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 141px;
-  height: 52px;
-  align-items: center;
-  border-radius: 160px;
-  background-color: #198C36;
-}
-.navigation__button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .promo {
@@ -713,25 +727,7 @@ progress {
   margin-top: 13px;
 }
 .steps__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 244px;
-  height: 52px;
-  background-color: #198C36;
-  border-radius: 160px;
   margin-top: 46px;
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: center;
-  color: #FBFAF7;
-  text-decoration: none;
-}
-.steps__button:hover {
-  color: #FBFAF7;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .book {
@@ -752,22 +748,69 @@ progress {
 }
 .book__button {
   margin-top: 19px;
-  width: 191px;
-  height: 52px;
+}
+
+.call {
+  background-color: #163A24;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #198C36;
-  border-radius: 160px;
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: center;
-  color: #FBFAF7;
-  text-decoration: none;
+  justify-content: space-between;
 }
-.book__button:hover {
-  color: #FBFAF7;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.call__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.call__text {
+  margin-top: 26px;
+}
+.call__button {
+  margin-top: 18px;
+}
+
+.singup {
+  background-color: #F2EFE6;
+  padding: 60px 0;
+}
+.singup__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.singup__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.singup__descr {
+  margin-top: 26px;
+}
+.singup__input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.singup__input > input {
+  height: 54px;
+  background: #FFFFFF;
+  border: 1px solid #F2EFE6;
+  box-sizing: border-box;
+  border-radius: 255px;
+}
+.singup__button {
+  position: absolute;
+  right: 0;
+}
+.singup__button:hover {
+  box-shadow: none;
+}
+.singup__policy {
+  margin-top: 14px;
+}
+.singup__link {
+  color: #198C36;
+}
+.singup__link:hover {
+  color: #198C36;
 }
