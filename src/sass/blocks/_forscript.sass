@@ -1,0 +1,28 @@
+.navigation
+    &__hamburger
+        display: flex
+        align-items: end
+        flex-direction: column
+        width: 16px
+        height: 16px
+        span
+            margin-top: 4px
+            width: 16px
+            background: #FFFFFF
+            border-radius: 60px
+            height: 1px
+            z-index: 100
+            &:first-child
+                margin-top: 0
+        &_active
+            span
+                margin-bottom: -5px
+                transition: 0.5s all
+                &:nth-child(1)
+                    width: 16px
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    width: 16px
+                    transform: translateY(3px) rotate(45deg)
